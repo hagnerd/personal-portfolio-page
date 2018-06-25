@@ -7,12 +7,83 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Personal Portfolio Page</title>
   <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <!-- TESTING SUITE  -->
   <script src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
 </head>
 
 <body>
+
+  <nav id="navbar" class="navbar">
+    <header>Matt Hagner</header>
+    <div class="nav-links">
+      <a href="#about-me">About Me</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact-me">Contact</a>
+    </div>
+  </nav>
+
+  <main>
+
+    <section id="welcome-section" class="welcome--section">
+      <h1>Hi, I'm Matt!</h1>
+      <p class="welcome-text">I am a developer.</p>
+    </section>
+
+    <section id="about-me" class="about--section">
+      <header>
+        <h2>About Me</h2>
+      </header>
+      <p>I am a self taught developer with a focus on JavaScript and the front end. React is my first choice of front end frameworks
+        because it fits best with how I think about breaking down web applications into smaller chunks.</p>
+      <p>Along with JavaScript, I have developed small things in PHP, and Python.</p>
+      <p>Despite my focus on JavaScript (a weakly typed language), I much prefer strongly typed languages which is why I
+        <i class="fas fa-heart"></i> TypeScript, and Rust.</p>
+    </section>
+
+    <section id="projects" class="projects--section">
+      <header>
+        <h2>Projects</h2>
+      </header>
+      <section id="responsive-web-design" class="project-tile">
+        <header>
+          <h3>Responsive Web Design</h3>
+        </header>
+        <a href="https://hagnerd.github.io/tribute-page/">Tribute Page</a>
+        <a href="https://hagnerd.github.io/survey-form/">Survey Form</a>
+        <a href="https://hagnerd.github.io/product-landing-page/">Product Landing Page</a>
+        <a href="https://hagnerd.github.io/technical-documentation-page/">Technical Documentation</a>
+      </section>
+    </section>
+
+    <section id="contact-me" class="contact--section">
+      <header>
+        <h2>Contact Me</h2>
+      </header>
+      <p>If you're interested in working with me contact me. I would love to contribute to your open source project/work with
+        you!
+      </p>
+    </section>
+
+  </main>
+
+
+  <footer>
+    <nav id="footer--nav" class="footer--nav">
+      <a href="https://github.com/hagnerd" title="Github" id="profile-link" target="_blank">
+        <i class="fab fa-github footer-fa"></i>
+      </a>
+      <a href="" title="Twitter" target="_blank">
+        <i class="fab fa-twitter footer-fa"></i>
+      </a>
+      <a href="" title="Medium" target="_blank">
+        <i class="fab fa-medium-m footer-fa"></i>
+      </a>
+    </nav>
+  </footer>
 
 </body>
 
